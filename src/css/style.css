@@ -71,13 +71,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     justify-content: space-between;
     align-items: center;    
 }
-/* .navbar .container .navigation ul li:nth-child(4){
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background-color: #fff;
-} */
+
 
 
 .navbar .container .navigation ul li a {
@@ -95,16 +89,6 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 
 
-/* .navbar .container .navigation .circle {    
-    position: absolute;
-    top: 30px;
-    display: block;
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background-color: #fff;
-} */
-
 .container .contact {
     display: flex;
     justify-content: space-between;
@@ -118,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     color: #cbcac9;
     line-height: 35px;
 }
+
 .contact .phone_number {
     margin-bottom: 18px;
 }
