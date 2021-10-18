@@ -1,0 +1,483 @@
+html
+  box-sizing: border-box
+
+body
+  font-family: 'Arial', 'Verdana', 'PTSans', 'Roboto' sans-serif
+  min-width: 960px
+
+li
+  list-style: none
+
+a
+  text-decoration: none
+
+*
+  padding: 0
+  margin: 0
+  border: 0
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+  &::before, &::after
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+\:focus, :active
+  outline: none
+
+a
+  &:focus, &:active
+    outline: none
+
+nav, footer, header, aside
+  display: block
+
+html, body
+  height: 100%
+  width: 100%
+  font-size: 100%
+  line-height: 1
+  font-size: 14px
+  -ms-text-size-adjust: 100%
+  -moz-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+
+input, button, textarea
+  font-family: inherit
+
+input::-ms-clear
+  display: none
+
+button
+  cursor: pointer
+
+  &::-moz-focus-inner
+    padding: 0
+    border: 0
+
+a
+  text-decoration: none
+
+  &:visited, &:hover
+    text-decoration: none
+
+ul li
+  list-style: none
+
+img
+  vertical-align: top
+
+h1, h2, h3, h4, h5, h6
+  font-size: inherit
+  font-weight: 400
+
+.navbar
+  height: 200px
+  background-color: #15181d
+  padding: 20px 0 30px 0
+
+.container
+  width: 960px
+  margin: 0 auto
+
+.navbar .container .navigation
+  background-color: #1d1f24
+  padding: 25px 469px 22px 25px
+  margin-bottom: 28px
+
+  ul
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    li
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+      a
+        color: #bbbcbc
+        font-family: "Arial"
+        font-size: 14px
+        font-weight: 700
+        padding: 10px 27px 7px 27px
+        transition: 0.3s all
+
+      &:hover a
+        background-color: #da0d2b
+
+.container .contact
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  .care
+    font-family: 'Roboto'
+    font-size: 22px
+    font-style: italic
+    font-weight: 400
+    color: #cbcac9
+    line-height: 35px
+
+.contact
+  .phone_number
+    margin-bottom: 18px
+
+    .number
+      color: #f8f7f7
+      font-family: "Arial"
+      font-size: 16px
+      font-weight: 400
+      line-height: 13px
+      margin-left: 10px
+      transition: 0.3s all
+
+      &:hover
+        color: #b20f28
+
+  .clock
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .data
+      color: #f8f7f7
+      font-family: "Arial"
+      font-size: 13px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      line-height: 18px
+      text-align: left
+
+header .head
+  height: 508px
+  width: 100%
+  background: url('../images/img/main_bg.jpg') center (center / cover) no-repeat
+
+.tuning
+  padding: 60px 0
+  background-color: #15181d
+
+  .parts
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .block
+      background-color: #1d1f24
+      min-height: 285px
+      padding-top: 33px
+      padding-left: 30px
+
+      .block_title
+        color: #ffffff
+        font-family: "PT Sans"
+        font-size: 21px
+        font-weight: 700
+        font-style: normal
+        letter-spacing: normal
+        line-height: normal
+        text-align: left
+        margin-bottom: 34px
+
+      .block_descr li
+        a
+          color: #e7e7e8
+          font-family: "PT Sans"
+          font-size: 14px
+          font-weight: 400
+          font-style: normal
+          letter-spacing: normal
+          line-height: normal
+          text-align: left
+          text-decoration: underline
+          line-height: 25px
+          transition: 0.3s all
+
+        &:hover a
+          color: #da0d2b
+          text-decoration: none
+
+  .company
+    height: 493px
+    padding: 60px 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .company_title
+      color: #ffffff
+      font-family: "Roboto"
+      font-size: 23px
+      font-weight: 700
+      line-height: 11px
+      text-align: left
+      margin-bottom: 24px
+
+    .company_descr
+      width: 612px
+      color: #bbbcbc
+      font-family: "Verdana"
+      font-size: 14px
+      font-weight: 400
+      line-height: 20px
+      text-align: left
+
+    .company_content
+      width: 290px
+      height: 373px
+      background-color: #da0d2b
+      padding: 30px 0 30px 20px
+
+      .company_red
+        display: flex
+        align-items: center
+        margin-bottom: 30px
+
+        .round
+          width: 40px
+          height: 40px
+          border-radius: 100%
+          border: 8px solid #b20f28
+          color: #ffffff
+          font-family: "Verdana"
+          font-size: 20px
+          font-weight: 700
+          display: flex
+          justify-content: center
+          align-items: center
+          margin-right: 15px
+
+      .company_red_text
+        width: 160px
+        color: #ffffff
+        font-family: Verdana
+        font-size: 14px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: 20px
+        text-align: left
+
+  .redaction
+    border: 1px solid #2d3034
+    padding: 30px 0 35px 30px
+
+    .redaction_title
+      color: #ffffff
+      font-family: Roboto
+      font-size: 23px
+      font-weight: 700
+      line-height: 11px
+      text-align: left
+      margin-bottom: 19px
+
+    .redaction_content
+      display: flex
+      align-items: flex-start
+
+.redaction .redaction_content
+  img
+    margin-right: 29px
+
+  .redaction_descr
+    width: 602px
+    color: #bbbcbc
+    font-family: Verdana
+    font-size: 14px
+    font-weight: 400
+    line-height: 20px
+
+    a
+      display: inline-block
+      margin-top: 18px
+      color: #bbbcbc
+      font-family: Verdana
+      font-size: 14px
+      font-weight: 400
+      line-height: 20px
+      text-align: left
+      text-decoration: underline
+      transition: 0.3s all
+
+      &:hover
+        color: #da0d2b
+        text-decoration: underline
+
+.logos
+  background-color: #1d1f24
+  padding: 50px 0 55px 0
+
+  .logos_title
+    color: #ffffff
+    font-family: Roboto
+    font-size: 30px
+    font-weight: 700
+    line-height: 11px
+    text-align: left
+    margin-bottom: 44px
+
+  .logos_cars
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.works
+  background-color: #15181d
+  padding: 60px 0
+
+  .works_title
+    color: #ffffff
+    font-family: "Roboto"
+    font-size: 30px
+    font-weight: 700
+    line-height: 11px
+    text-align: left
+    margin-right: 20px
+
+  .wrap
+    display: flex
+    align-items: flex-start
+    margin-bottom: 34px
+
+    a
+      font-family: "Arial"
+      color: #bbbcbc
+      font-size: 11px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      line-height: 18px
+      text-align: left
+      text-decoration: underline
+      text-transform: uppercase
+      transition: 0.3s all
+
+      &:hover
+        color: #b20f28
+
+  .works_images
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  .workswrap
+    position: relative
+
+  .works_text
+    visibility: hidden
+
+  .workswrap:hover .works_text
+    visibility: visible
+
+  .works_text a
+    position: absolute
+    top: 90px
+    left: 65px
+    color: #bbbcbc
+    font-family: "Arial"
+    font-size: 15px
+    font-weight: 700
+    line-height: 18px
+    text-align: left
+
+footer
+  background-color: #1d1f24
+  padding: 40px 60px
+
+  .footernav
+    width: 384px
+    margin: 0 auto 58px
+
+    ul
+      display: flex
+      justify-content: space-between
+
+      li
+        a
+          color: #58595b
+          font-family: "Arial"
+          font-size: 12px
+          font-weight: 400
+          font-style: normal
+          letter-spacing: normal
+          line-height: 16px
+          text-align: left
+          transition: all ease 0.3s
+
+        &:hover a
+          color: #fefefe
+
+  .blocks
+    display: flex
+    justify-content: space-between
+
+    .info
+      .name
+        color: #acadad
+        font-family: 'Verdana'
+        font-size: 13px
+        font-weight: 400
+        line-height: 11px
+        text-align: left
+        margin-bottom: 31px
+
+      .media
+        display: flex
+
+        a
+          margin-right: 10px
+
+    .address ul li
+      color: #bbbcbc
+      font-family: "Arial"
+      font-size: 13px
+      font-weight: 400
+      line-height: 10px
+      margin-bottom: 19px
+
+      a
+        color: #bbbcbc
+        font-family: "Arial"
+        font-size: 13px
+        font-weight: 400
+
+      &:hover a
+        border-bottom: 1px dotted #b5b5b6
+
+    .number
+      height: 100%
+
+      a
+        color: #acadad
+        font-family: "Arial"
+        font-size: 16px
+        font-weight: 400
+        text-align: left
+        transition: 0.3s all
+
+      &:hover a
+        color: #da0d2b
+
+    .social
+      a
+        color: #b5b5b6
+        font-family: Verdana
+        font-size: 13px
+        font-weight: 400
+        text-align: right
+        text-decoration: underline
+        margin-bottom: 20px
+
+      &:hover a
+        color: #b20f28
+
+      a
+        img
+          vertical-align: middle
+          margin-right: 10px
+
+        display: block
